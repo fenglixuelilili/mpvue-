@@ -1,0 +1,37 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ea5149",
+    "navigationBarTitleText": "爱读书",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "pages": [
+    "pages/Me/main",
+    "pages/Book/main",
+    "pages/Comments/main",
+    "pages/bookdetail/main"
+  ],
+  "tabBar": {
+    "selectedColor": "#ea5149",
+    "list": [{
+      "pagePath": "pages/Me/main",
+      "text": "个人中心",
+      "iconPath": "static/imgs/me.png",
+      "selectedIconPath": "static/imgs/me-active.png"
+    },
+    {
+      "pagePath": "pages/Book/main",
+      "text": "书book",
+      "iconPath": "static/imgs/book.png",
+      "selectedIconPath": "static/imgs/book-active.png"
+    },
+    {
+      "pagePath": "pages/Comments/main",
+      "text": "评论",
+      "iconPath": "static/imgs/todo.png",
+      "selectedIconPath": "static/imgs/todo-active.png"
+    }
+    ]
+  }
+}
